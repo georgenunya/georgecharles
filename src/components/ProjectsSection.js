@@ -79,21 +79,28 @@ return (
               },
             }}
           >
-            {projects.filter((project, index) => (
-              if (index >= 5) return;
-              return (
-                <SwiperSlide key={project.id}>
-                  <ProjectItem
-                    title={project.name}
-                    img={project.img}
-                    desc={project.desc}
-                  />
-                </SwiperSlide>
-              );
-            ))}
+            {projects.map((project, index) => {
+                return            })}
           </Swiper>
         </div>
       </div>
     </ProjectSectionStyle>
 );
 }
+
+
+fetch('/users')
+        .then(res => res.json())
+        .then(data => {
+            data.map(users => {
+                console.log(users);
+            });
+        });
+
+fetch('/users')
+    .then(res => res.json())
+    .then(data => {
+        data.map(users => {
+            return console.log(users);
+        });
+    });
