@@ -4,7 +4,6 @@ import { MdSearch } from 'react-icons/md';
 import SectionTitle from '../components/SectionTitle';
 import ProjectsInfo from '../assets/data/projects';
 import ProjectItem from '../components/ProjectItem';
-import Footer from '../components/Footer';
 
 const ProjectStyle = styled.div`
   padding: 10rem 0;
@@ -93,7 +92,6 @@ export default function Projects() {
           </div>
         </div>
       </ProjectStyle>
-      <Footer />
     </div>
   );
 }
