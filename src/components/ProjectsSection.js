@@ -79,7 +79,7 @@ return (
               },
             }}
           >
-            {projects.filter((project, index) => {
+            {projects.filter((project, index) => (
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
@@ -90,7 +90,7 @@ return (
                   />
                 </SwiperSlide>
               );
-            })}
+            ))}
           </Swiper>
         </div>
       </div>
