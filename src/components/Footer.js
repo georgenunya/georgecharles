@@ -130,7 +130,7 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2021 - George Charles | Designed and Developed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://georgecharles.uk">
+            <a target="website" rel="noreferrer" href="http://georgecharles.uk">
               George Charles
             </a>{' '}
           </PText>
