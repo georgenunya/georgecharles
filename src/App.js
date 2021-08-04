@@ -14,7 +14,6 @@ export default function App() {
       <Router>
         <NavMenu />
         <SmoothScrollbar>
-                  <ScrollToTop />
         <Switch>
           <Route path="/about">
             <About />
