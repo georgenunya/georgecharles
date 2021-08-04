@@ -79,7 +79,7 @@ return (
               },
             }}
           >
-            {projects.map((project, index) => {
+            {projects.filter((project, index) => {
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>
