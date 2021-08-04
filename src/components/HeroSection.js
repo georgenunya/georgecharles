@@ -172,13 +172,13 @@ export default function HeroSection() {
 
 
                 <li>
-                  <a href="https://www.instagram.com/georgecharles__/" target="_blank" rel="noreferrer">
+                  <a href="https://www.instagram.com/georgecharles__/">
                     IG
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://www.linkedin.com/in/george-charles-04874696" target="_blank" rel="noreferrer">
+                  <a href="https://www.linkedin.com/in/george-charles-04874696">
                     LI
                   </a>
                 </li>
